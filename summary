@@ -1,0 +1,36 @@
+Practical 1
+
+Sorting Algorithms
+This program takes numbers you type in and sorts them five different ways, timing each one:
+
+-> Bubble Sort: Repeatedly compares neighboring numbers and swaps them if they're in the wrong order — like bubbles rising to the top. Slow for large lists.
+-> Selection Sort: Finds the smallest number in the unsorted part and puts it in its correct spot, one at a time.
+-> Insertion Sort: Builds the sorted list one number at a time, inserting each new number into its correct position — like sorting playing cards in your hand.
+-> Merge Sort: Splits the list in half repeatedly until pieces are tiny, then merges them back together in order. Fast and reliable even for big lists.
+-> Quick Sort: Picks a "pivot" number, puts smaller numbers on one side and bigger numbers on the other, then repeats on each side. Usually very fast.
+    After sorting, it prints the sorted list and how long each method took.
+
+Practical 2
+
+Searching Algorithms
+This program compares two ways of finding a number in a list of 1 to 100,000.
+
+-> Linear Search: Checks every number one at a time from the start until it finds the target. Simple but slow for big lists.
+-> Binary Search: Only works because the list is already sorted. It checks the middle number, and depending on whether the target is bigger or smaller, it throws away half the list each time. Much faster.
+     The program times both searches (in microseconds) so you can see binary search win, especially as the list grows.
+
+
+practical 4
+
+Factorial (Iterative vs RecursivThis program calculates the factorial of a number (e.g., 5! = 5×4×3×2×1) two different ways:
+
+-> Iterative: Uses a simple loop that multiplies numbers together one by one.
+-> Recursive: The function calls itself repeatedly, breaking the problem into smaller pieces (like x! = x × (x−1)!) until it reaches the base case.
+   Both methods give the same answer, but the program times each one separately (in nanoseconds) so you can compare their speed.
+   
+practical 3
+
+->Sorts an array in ascending order 
+two ways — via max-heap heap sort 
+         -via min-heap heap sort plus a reversal 
+         — then prints both results.
