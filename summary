@@ -33,3 +33,12 @@ practical 3
 ->Sorts an array in ascending order 
 two ways — via max-heap heap sort 
          — then prints result.
+
+practical 7
+
+    Implementation of making a change problem using dynamic programmimg 
+
+Summary: This program counts the number of ways to make a target amount using given coins,
+via bottom-up DP where dp[i] tracks combinations for amount i — looping coins outer, amounts inner, to avoid counting order variations separately.
+
+Conclusion: For coins {1,2,5} and amount 5, it outputs 4 ways, solving the problem efficiently in O(amount × coins) time instead of exponential brute force.
