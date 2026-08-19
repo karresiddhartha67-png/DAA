@@ -32,5 +32,4 @@ practical 3
 
 ->Sorts an array in ascending order 
 two ways — via max-heap heap sort 
-         -via min-heap heap sort plus a reversal 
-         — then prints both results.
+         — then prints result.
