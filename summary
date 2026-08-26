@@ -42,3 +42,22 @@ Summary: This program counts the number of ways to make a target amount using gi
 via bottom-up DP where dp[i] tracks combinations for amount i — looping coins outer, amounts inner, to avoid counting order variations separately.
 
 Conclusion: For coins {1,2,5} and amount 5, it outputs 4 ways, solving the problem efficiently in O(amount × coins) time instead of exponential brute force.
+
+practical 5
+
+        Implementation of a knapsack problem using dynamic programming.
+
+Summary
+
+This practical implements the 0/1 Knapsack Problem using Dynamic Programming in C++.
+Given items with weights and values, and a knapsack with limited capacity, the program finds the maximum value that can be packed without exceeding the capacity. 
+A DP table dp[i][w] is built where each cell stores the best value achievable using the first i items with capacity w,
+by comparing "include the item" vs "exclude the item" at each step
+
+
+Conclusion
+
+Dynamic programming solves the knapsack problem efficiently by breaking it into smaller subproblems and storing their results,
+avoiding repeated calculations. This makes it much faster than checking every possible combination.
+The 0/1 Knapsack problem shows how DP is useful for real-world optimization tasks like budgeting and resource allocation.
+
